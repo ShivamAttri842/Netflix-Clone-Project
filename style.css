@@ -88,7 +88,7 @@ nav button {
     z-index: 20;
 }
 
-.btn {
+.button {
     padding: 3px 8px;
     font-weight: 400;
     color: white;
@@ -99,7 +99,7 @@ nav button {
 
 }
 
-.btn-red {
+.button-red {
     background-color: red;
     color: white;
     padding: 3px 24px;
@@ -108,7 +108,7 @@ nav button {
     font-weight: 400;
 }
 
-.btn-red-sm {
+.button-red-sm {
     background-color: red;
     color: white;
 }
