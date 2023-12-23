@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("Assests/img/bg.jpg");
+    background-position: center center;
+    background-size: max(1500px, 100vw);
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+}
+
+nav img {
+    color: rgb(161, 37, 37);
+    width: 120px;
+    position: relative;
+    z-index: 08;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    height: 30px;
+    width: 70px;
+}
+
+.text {
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text> :first-child {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 48px;
+    align-content: center;
+}
+
+.text> :nth-child(2) {
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
+
+.text> :nth-child(3) {
+    font-weight: 200;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+}
